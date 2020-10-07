@@ -7,7 +7,8 @@ fn main() {
     println!("highest ==> {}",b);
     println!("plus ==> {}",re);
     loop_to_10();
-    loop_to_10_with_for()
+    loop_to_10_with_while();
+    loop_to_10_with_for();
 }
 
 fn highest(a : i32 , b : u32, c : i8) -> i32 {
@@ -38,6 +39,14 @@ fn loop_to_10(){
         if counter>=10 {
             return;
         }
+    }
+}
+fn loop_to_10_with_while(){
+    let mut counter=0;
+
+    while counter <10 {
+        counter+=1;
+        println!("while ==> {}",counter);
     }
 }
 fn loop_to_10_with_for(){
