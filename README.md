@@ -1,2 +1,2 @@
-# my_rust_practice
+# my rust practice
 just my practice noting else :))
